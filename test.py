@@ -3,6 +3,7 @@ def recursive_function(obj, depth):
         return
     print(f"Depth {depth}: {obj}")
     recursive_function(obj, depth - 1)
+    return 0
 
 # 创建一个对象
 my_object = {"key": "value"}
